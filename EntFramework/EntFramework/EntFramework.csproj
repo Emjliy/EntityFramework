@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220427031301_EMPLOYEE.cs" />
+    <Compile Remove="Migrations\20220427031301_EMPLOYEE.Designer.cs" />
+    <Compile Remove="Migrations\20220427031801_CREATEMPLOYEETABLE.cs" />
+    <Compile Remove="Migrations\20220427031801_CREATEMPLOYEETABLE.Designer.cs" />
+    <Compile Remove="Migrations\20220427032328_CREATEEMPLOYEETABLE.cs" />
+    <Compile Remove="Migrations\20220427032328_CREATEEMPLOYEETABLE.Designer.cs" />
+    <Compile Remove="Migrations\20220427032842_AddEmployeeTable.cs" />
+    <Compile Remove="Migrations\20220427032842_AddEmployeeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427033254_AddEmployeeTable.cs" />
+    <Compile Remove="Migrations\20220427033254_AddEmployeeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427033937_AddEmployeeTable.cs" />
+    <Compile Remove="Migrations\20220427033937_AddEmployeeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427034537_AddEmpTable.cs" />
+    <Compile Remove="Migrations\20220427034537_AddEmpTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427040237_ADDEMPLOYEETABLE.cs" />
+    <Compile Remove="Migrations\20220427040237_ADDEMPLOYEETABLE.Designer.cs" />
+    <Compile Remove="Migrations\20220427041559_AddEmployee.cs" />
+    <Compile Remove="Migrations\20220427041559_AddEmployee.Designer.cs" />
+    <Compile Remove="Migrations\20220427044412_AddEmployeeTable.cs" />
+    <Compile Remove="Migrations\20220427044412_AddEmployeeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427044736_CreateEmployeeTable.cs" />
+    <Compile Remove="Migrations\20220427044736_CreateEmployeeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220427044922_AddEmployee.cs" />
+    <Compile Remove="Migrations\20220427044922_AddEmployee.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
